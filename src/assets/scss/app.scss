@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+@import "../../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../../node_modules/bulma/sass/base/_all.sass";
+@import "../../../node_modules/bulma/sass/elements/_all.sass";
+@import "../../../node_modules/bulma/sass/form/_all.sass";
+@import "../../../node_modules/bulma/sass/components/pagination.sass";
+@import "../../../node_modules/bulma/sass/components/tabs.sass";
+@import "../../../node_modules/bulma/sass/components/message.sass";
+@import "../../../node_modules/bulma/sass/layout/section.sass";
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+@import "../../../node_modules/bulma/sass/helpers/_all.sass";
+
+.router-link-exact-active {
+    color: $grey-darker;
+}
+
+.main-header {
+    position: relative;
+    border-bottom: 1px solid $grey-lighter;
+}
+
+
+

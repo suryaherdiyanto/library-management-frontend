@@ -1,30 +1,23 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="nav" class="main-header pt-5 pb-5">
+    <div class="container">
+      <div class="columns is-justify-content-center">
+        <div class="column is-1 has-text-centered">
+          <router-link to="/">Home</router-link> <i class="fas fa-home"></i>
+        </div>
+        <div class="column is-1 has-text-centered">
+          <router-link to="/login">Login</router-link>
+        </div>
+      </div>
+    </div>
   </div>
   <router-view/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+export default {
+	created() {
+		
+	}
 }
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+</script>
